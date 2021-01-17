@@ -4,6 +4,10 @@
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-one-page-wonder/blob/master/LICENSE)
  */
 
+ /*
+color palette: header: #F1F7F7, red: #DE3134, orange: #FC9F2F, white: #EFF4F5
+ */
+
 body {
   font-family: 'Lato';
 }
@@ -59,7 +63,8 @@ header.masthead {
   overflow: hidden;
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
-  background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);
+  /*background: linear-gradient(0deg, #ff6a00 0%, #ee0950 100%);*/
+  background-image: url("img/background.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
@@ -79,41 +84,6 @@ header.masthead .masthead-content .masthead-subheading {
   font-size: 2rem;
 }
 
-header.masthead .bg-circle {
-  z-index: 0;
-  position: absolute;
-  border-radius: 100%;
-  background: linear-gradient(0deg, #ee0979 0%, #ff6a00 100%);
-}
-
-header.masthead .bg-circle-1 {
-  height: 90rem;
-  width: 90rem;
-  bottom: -55rem;
-  left: -55rem;
-}
-
-header.masthead .bg-circle-2 {
-  height: 50rem;
-  width: 50rem;
-  top: -25rem;
-  right: -25rem;
-}
-
-header.masthead .bg-circle-3 {
-  height: 20rem;
-  width: 20rem;
-  bottom: -10rem;
-  right: 5%;
-}
-
-header.masthead .bg-circle-4 {
-  height: 30rem;
-  width: 30rem;
-  top: -5rem;
-  right: 35%;
-}
-
 @media (min-width: 992px) {
   header.masthead {
     padding-top: calc(10rem + 55px);
@@ -128,17 +98,17 @@ header.masthead .bg-circle-4 {
 }
 
 .bg-primary {
-  background-color: #ee0979 !important;
+  background-color: #ee0979;
 }
 
 .btn-primary {
-  background-color: #ee0979;
-  border-color: #ee0979;
+  background-color: #FC9F2F;
+  border-color: #FC9F2F;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #bd0760 !important;
-  border-color: #bd0760 !important;
+  background-color: #e68615 !important;
+  border-color: #e68615 !important;
 }
 
 .btn-primary:focus {
