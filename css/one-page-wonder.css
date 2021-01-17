@@ -23,10 +23,9 @@ h6 {
 }
 
 .btn-xl {
-  text-transform: uppercase;
   padding: 1.5rem 3rem;
   font-size: 0.9rem;
-  font-weight: 700;
+  font-weight: 500;
   letter-spacing: 0.1rem;
 }
 
@@ -41,7 +40,7 @@ h6 {
 .navbar-custom {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: white;
 }
 
 .navbar-custom .navbar-brand {
@@ -49,6 +48,9 @@ h6 {
   font-size: 1rem;
   letter-spacing: 0.1rem;
   font-weight: 700;
+  left: 0px;
+  padding-left: 0px;
+  margin-left: 0px;
 }
 
 .navbar-custom .navbar-nav .nav-item .nav-link {
@@ -112,7 +114,7 @@ header.masthead .masthead-content .masthead-subheading {
 }
 
 .btn-primary:focus {
-  box-shadow: 0 0 0 0.2rem rgba(238, 9, 121, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(230, 134, 21, 0.5);
 }
 
 .btn-secondary {
@@ -127,4 +129,13 @@ header.masthead .masthead-content .masthead-subheading {
 
 .btn-secondary:focus {
   box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
+}
+
+#circle {
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background: #DE3134;
 }
